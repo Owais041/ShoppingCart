@@ -39,26 +39,7 @@ const App = () => {
       </div>
       <div className="results-container">
       {products.map((product, index) => (
-  // <div key={index} className="product-card">
-  //   <h2> {product.title}</h2>
-  //   <div className="thumbnail-container">
-  //     <img src={product.thumbnail} alt="Product Thumbnail" />
-  //   </div>
-  //   <div className="image-container">
-  //     {product.images.map((image, imgIndex) => (
-  //       <img key={imgIndex} src={image} alt={`Product ${imgIndex}`} />
-  //     ))}
-  //   </div>
-  //   <p>Description: {product.description}</p>
-  //   <p>Price: ${product.price}</p>
-  //   <p>Brand: {product.brand}</p>
-  //   <p>Category: {product.category}</p>
-  //   <p>Rating: {product.rating}</p>
-   
-   
-  //   <p>Remaining: {product.stock}</p>
-  //   <p>Discount: {product.discountPercentage}</p>
-  // </div>
+  
   <div key={index} className="product-card">
   
   <div className="abc">
